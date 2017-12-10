@@ -11,11 +11,19 @@ A boilerplate to help get started with JS/Node projects, specifically catering d
 
 ## Setup
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/)
-2. Install these extensions: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-3. Fork this repo and change remote settings accordingly
-4. In the project root, run `yarn`
-5. Get to work! Change the properties in package.json to suit your project's needs.
+**Requirements**
+
+* [Visual Studio Code](https://code.visualstudio.com/)
+* VSCode extensions: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Git](https://git-scm.com/)
+* [NodeJS](https://nodejs.org/en/)
+* [Yarn](https://yarnpkg.com/en/)
+
+**Typical setup**
+
+1. Fork or clone this repo and change remote settings accordingly
+2. In the project root, run `yarn`
+3. Get to work! Change the properties in package.json to suit your project's needs.
 
 ## Contributing
 
