@@ -1,0 +1,23 @@
+{
+  "name": "boilerplate-vscode-js",
+  "version": "0.1.0",
+  "author": "Enrico Sacchetti <enrico@theetrain.ca>",
+  "license": "ISC",
+  "scripts": {
+    "dev": "browser-sync start -s ./src/ -f ./src/** --no-inject-changes",
+    "test": "echint ./src && eslint ./src/**/*.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "echint": "^4.0.1",
+    "eslint": "^4.10.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.8.1"
+  }
+}
