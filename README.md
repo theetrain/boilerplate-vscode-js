@@ -1,17 +1,19 @@
 # boilerplate-vscode-js
 
-A boilerplate to help get started with JS/Node projects, specifically catering developers who use Visual Studio Code.
+A boilerplate to help get started with JS/Node projects, specifically catering
+developers who use Visual Studio Code.
 
 ## Features
 
 * Sensible .editorconfig file
-* Prettier + ESlint + Standard (JS) linting that will automatically format your code on save according to the opinions of Prettier and Standard
+* Prettier + ESlint + Standard (JS) linting that will automatically format your
+  code on save according to the opinions of Prettier and Standard
 * Auto-save files on focus change (can be disabled in **.vscode/settings.json**)
 * Browser-sync for rapid front-end development, run `yarn dev`
 
 ## Setup
 
-**Requirements**
+### Requirements
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * VSCode extensions: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
@@ -19,7 +21,7 @@ A boilerplate to help get started with JS/Node projects, specifically catering d
 * [NodeJS](https://nodejs.org/en/)
 * [Yarn](https://yarnpkg.com/en/)
 
-**Typical setup**
+### Typical setup
 
 1. Fork or clone this repo and change remote settings accordingly
 2. In the project root, run `yarn`
