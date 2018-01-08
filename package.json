@@ -5,7 +5,10 @@
   "license": "ISC",
   "scripts": {
     "dev": "browser-sync start -s ./src/ -f ./src/** --no-inject-changes",
-    "test": "echint ./src && eslint ./src/**/*.js"
+    "test": "yarn test:ec && yarn test:js && yarn test:markdown",
+    "test:ec": "echint ./src",
+    "test:js": "eslint ./src/**/*.js",
+    "test:markdown": "markdownlint ./src"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
@@ -18,6 +21,7 @@
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "markdownlint-cli": "^0.6.0",
     "prettier": "^1.8.1"
   }
 }
