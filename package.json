@@ -6,10 +6,10 @@
   "license": "ISC",
   "scripts": {
     "dev": "browser-sync start -s ./src/ -f ./src/** --no-inject-changes",
-    "test": "yarn test:ec && yarn test:js && yarn test:markdown",
-    "test:ec": "echint ./src",
-    "test:js": "eslint ./src/**/*.js",
-    "test:markdown": "markdownlint ./src"
+    "lint:ec": "echint ./src",
+    "lint:js": "eslint ./src/**/*.js",
+    "lint:markdown": "markdownlint ./src",
+    "lint": "yarn lint:ec && yarn lint:js && yarn lint:markdown"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
